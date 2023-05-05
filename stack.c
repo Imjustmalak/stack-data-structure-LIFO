@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -22,7 +23,7 @@ void push(struct Node** p) {
 int pop(struct Node** p) {
     
     if (*p== NULL) {
-        printf("Stack is empty");
+        printf("Stack is empty.\n");
         
     }
 
@@ -54,13 +55,14 @@ int main() {
 
     
 
-    
+    printf("the elements are: \n");
     while (!is_empty(head)) {
+        
         printf("%d\n", pop(&head));
     }
 
     
-    printf("%d\n", pop(&head));
+    
 
-    return 0;
+    
 }
