@@ -22,7 +22,7 @@ void push(struct Node** p) {
 int pop(struct Node** p) {
     
     if (*p== NULL) {
-        printf("Stack is empty.\n");
+        printf("Stack is empty");
         
     }
 
