@@ -17,7 +17,7 @@ void push(struct Node** top, int data) {
 int pop(struct Node** top) {
     if (*top == NULL) {
         printf("Stack is empty.\n");
-        return -1;
+       
     }
     int data = (*top)->data;
     struct Node* temp = *top;
